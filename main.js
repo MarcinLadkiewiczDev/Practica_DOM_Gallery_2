@@ -1,4 +1,4 @@
-const personajesMarvel = [
+const marvelHeroes = [
   {
     nombreSuperheroe: "Iron Man",
     nombreReal: "Tony Stark",
@@ -6,6 +6,7 @@ const personajesMarvel = [
     poder:
       "Genio, multimillonario, filántropo con armadura tecnológica avanzada",
     origen: "Estados Unidos",
+    grupo: "Vengadores",
   },
   {
     nombreSuperheroe: "Capitán América",
@@ -14,6 +15,7 @@ const personajesMarvel = [
     poder:
       "Fuerza, velocidad y resistencia sobrehumanas gracias al suero del supersoldado",
     origen: "Estados Unidos",
+    grupo: "Vengadores",
   },
   {
     nombreSuperheroe: "Thor",
@@ -21,6 +23,7 @@ const personajesMarvel = [
     primeraAparicion: "Thor (2011)",
     poder: "Dios del trueno, fuerza sobrehumana, control del clima y Mjolnir",
     origen: "Asgard",
+    grupo: "Vengadores",
   },
   {
     nombreSuperheroe: "Hulk",
@@ -28,6 +31,7 @@ const personajesMarvel = [
     primeraAparicion: "The Incredible Hulk (2008)",
     poder: "Fuerza descomunal, resistencia extrema y regeneración acelerada",
     origen: "Estados Unidos",
+    grupo: "Vengadores",
   },
   {
     nombreSuperheroe: "Black Widow",
@@ -35,6 +39,7 @@ const personajesMarvel = [
     primeraAparicion: "Iron Man 2 (2010)",
     poder: "Habilidad en combate cuerpo a cuerpo, sigilo y espionaje",
     origen: "Rusia",
+    grupo: "Vengadores",
   },
   {
     nombreSuperheroe: "Spider-Man",
@@ -42,6 +47,7 @@ const personajesMarvel = [
     primeraAparicion: "Captain America: Civil War (2016)",
     poder: "Agilidad, fuerza mejorada, sentido arácnido y lanzar telarañas",
     origen: "Estados Unidos",
+    grupo: "Vengadores",
   },
   {
     nombreSuperheroe: "Doctor Strange",
@@ -49,6 +55,7 @@ const personajesMarvel = [
     primeraAparicion: "Doctor Strange (2016)",
     poder: "Magia y manipulación de la realidad a través de hechizos",
     origen: "Estados Unidos",
+    grupo: "Vengadores / Iluminati",
   },
   {
     nombreSuperheroe: "Black Panther",
@@ -57,6 +64,7 @@ const personajesMarvel = [
     poder:
       "Fuerza, agilidad y sentidos mejorados gracias a la hierba en forma de corazón",
     origen: "Wakanda",
+    grupo: "Vengadores / Iluminati",
   },
   {
     nombreSuperheroe: "Captain Marvel",
@@ -64,6 +72,7 @@ const personajesMarvel = [
     primeraAparicion: "Captain Marvel (2019)",
     poder: "Superfuerza, vuelo y manipulación de energía cósmica",
     origen: "Estados Unidos",
+    grupo: "Vengadores",
   },
   {
     nombreSuperheroe: "Loki",
@@ -71,6 +80,7 @@ const personajesMarvel = [
     primeraAparicion: "Thor (2011)",
     poder: "Dios del engaño, ilusiones, teletransportación y magia asgardiana",
     origen: "Jotunheim / Asgard",
+    grupo: "Ninguno (antagonista ocasional)",
   },
   {
     nombreSuperheroe: "Ant-Man",
@@ -79,6 +89,7 @@ const personajesMarvel = [
     poder:
       "Cambio de tamaño gracias a las partículas Pym, comunicación con hormigas",
     origen: "Estados Unidos",
+    grupo: "Vengadores",
   },
   {
     nombreSuperheroe: "Wasp",
@@ -86,6 +97,7 @@ const personajesMarvel = [
     primeraAparicion: "Ant-Man and the Wasp (2018)",
     poder: "Cambio de tamaño, vuelo y blásters de energía",
     origen: "Estados Unidos",
+    grupo: "Vengadores",
   },
   {
     nombreSuperheroe: "Falcon",
@@ -93,6 +105,7 @@ const personajesMarvel = [
     primeraAparicion: "Captain America: The Winter Soldier (2014)",
     poder: "Uso de alas mecánicas para volar, combate avanzado",
     origen: "Estados Unidos",
+    grupo: "Vengadores",
   },
   {
     nombreSuperheroe: "Winter Soldier",
@@ -100,6 +113,7 @@ const personajesMarvel = [
     primeraAparicion: "Captain America: The First Avenger (2011)",
     poder: "Fuerza y resistencia aumentadas, brazo biónico",
     origen: "Estados Unidos",
+    grupo: "Vengadores / Thunderbolts",
   },
   {
     nombreSuperheroe: "Scarlet Witch",
@@ -107,6 +121,7 @@ const personajesMarvel = [
     primeraAparicion: "Avengers: Age of Ultron (2015)",
     poder: "Magia del caos, manipulación de la realidad, telequinesis",
     origen: "Sokovia",
+    grupo: "Vengadores",
   },
   {
     nombreSuperheroe: "Vision",
@@ -114,6 +129,7 @@ const personajesMarvel = [
     primeraAparicion: "Avengers: Age of Ultron (2015)",
     poder: "Vuelo, intangibilidad, rayo de la Gema de la Mente",
     origen: "Creado por Tony Stark, Bruce Banner y Ultron",
+    grupo: "Vengadores",
   },
   {
     nombreSuperheroe: "Hawkeye",
@@ -121,6 +137,7 @@ const personajesMarvel = [
     primeraAparicion: "Thor (2011)",
     poder: "Experto arquero y combatiente",
     origen: "Estados Unidos",
+    grupo: "Vengadores",
   },
   {
     nombreSuperheroe: "Star-Lord",
@@ -129,6 +146,7 @@ const personajesMarvel = [
     poder:
       "Habilidades de combate y pilotaje, medio-celestial con resistencia aumentada",
     origen: "Estados Unidos / Espacio",
+    grupo: "Guardianes de la Galaxia",
   },
   {
     nombreSuperheroe: "Gamora",
@@ -136,6 +154,7 @@ const personajesMarvel = [
     primeraAparicion: "Guardians of the Galaxy (2014)",
     poder: "Fuerza, agilidad y habilidades de combate sobrehumanas",
     origen: "Zen-Whoberi",
+    grupo: "Guardianes de la Galaxia",
   },
   {
     nombreSuperheroe: "Drax",
@@ -143,6 +162,7 @@ const personajesMarvel = [
     primeraAparicion: "Guardians of the Galaxy (2014)",
     poder: "Fuerza sobrehumana y resistencia",
     origen: "Kylos",
+    grupo: "Guardianes de la Galaxia",
   },
   {
     nombreSuperheroe: "Rocket Raccoon",
@@ -150,6 +170,7 @@ const personajesMarvel = [
     primeraAparicion: "Guardians of the Galaxy (2014)",
     poder: "Estratega, experto en armas y tecnología",
     origen: "Contraxia (experimento genético)",
+    grupo: "Guardianes de la Galaxia",
   },
   {
     nombreSuperheroe: "Groot",
@@ -157,6 +178,7 @@ const personajesMarvel = [
     primeraAparicion: "Guardians of the Galaxy (2014)",
     poder: "Fuerza sobrehumana, regeneración y crecimiento",
     origen: "Planeta X",
+    grupo: "Guardianes de la Galaxia",
   },
   {
     nombreSuperheroe: "Mantis",
@@ -164,8 +186,6 @@ const personajesMarvel = [
     primeraAparicion: "Guardians of the Galaxy Vol. 2 (2017)",
     poder: "Empatía, manipulación emocional",
     origen: "Criada por Ego el Planeta Viviente",
-  }
+    grupo: "Guardianes de la Galaxia",
+  },
 ];
-
-
-
