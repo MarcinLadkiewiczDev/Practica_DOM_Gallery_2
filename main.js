@@ -235,4 +235,18 @@ const paintAvangers = (marvelHeroes) => {
 paintAvangers(marvelHeroes);
 
 
+const ul = document.querySelector("ul");
+let grupos = [];
+for (const hero of marvelHeroes) {
+  if(!grupos.includes(hero.grupo)){
+    grupos.push(hero.grupo);
+  }
+}
+
+grupos.forEach(grupo => {
+  let li = document.createElement("li");
+  li.innerHTML = `<button id="${grupo}">${grupo}</button>`;
+  ul.appendChild(li);
+})
+
 
